@@ -50,4 +50,13 @@ public class Marche {
 		
 		return etalProduit;
 	}
+	
+	Etal trouverVendeur(Gaulois gaulois) {
+		for(int i=0; i<nbEtal; i++) {
+			if(etals[i].isEtalOccupe() && etals[i].getVendeur()==gaulois)
+				return etals[i];
+		}
+		return null;
+	}
+	
 }

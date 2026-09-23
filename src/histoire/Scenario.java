@@ -9,7 +9,7 @@ import villagegaulois.Village;
 public class Scenario {
 
 	public static void main(String[] args) {
-		Village village = new Village("le village des irréductibles", 10, 5);
+		Village village = new Village("le village des irréductibles", 10);
 		Chef abraracourcix = new Chef("Abraracourcix", 10, village);
 		village.setChef(abraracourcix);
 		Druide druide = new Druide("Panoramix", 2, 5, 10);
